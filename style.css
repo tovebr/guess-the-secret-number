@@ -60,7 +60,7 @@ main {
   display: flex;
   margin: 3rem auto;
   max-width: 50rem;
-  height: 60vh;
+  height: 50vh;
   flex-wrap: wrap;
 }
 
@@ -121,9 +121,9 @@ main {
 
 .again {
   position: relative;
-  top: 8rem;
+  top: 6rem;
   border: none;
-  margin: 4rem auto;
+  margin: 4rem auto 1rem auto;
   width: 25%;
   height: 3rem;
   font-size: 1rem;

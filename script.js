@@ -73,3 +73,5 @@ document.querySelector('.again').addEventListener('click', () => {
 });
 
 init();
+
+console.log('vaihelv');

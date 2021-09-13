@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222;
+  font-family: "Anton", sans-serif;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+input {
+  font-family: "Anton", sans-serif;
+}
+
+header {
+  height: 30vh;
+  width: 100vw;
+  border-bottom: 5px solid blanchedalmond;
+}
+
+h1 {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 5rem;
+  color: aliceblue;
+}
+
+.red {
+  color: red;
+}
+
+.number-display {
+  color: black;
+  background-color: blanchedalmond;
+  display: block;
+  width: 8rem;
+  padding: 1rem 2rem;
+  font-size: 5rem;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 3rem;
+  left: 0.5rem;
+}
+
+.number-winner {
+  width: 9rem;
+  padding: 1rem 2rem;
+  font-size: 7rem;
+  top: 4rem;
+}
+
+main {
+  display: flex;
+  margin: 3rem auto;
+  max-width: 50rem;
+  height: 60vh;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 51%;
+  text-align: center;
+  padding: 2rem;
+  border-right: 0.4rem solid blanchedalmond;
+}
+
+.right {
+  width: 49%;
+  color: aliceblue;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: space-between; */
+}
+
+.right > p {
+  width: 800%;
+  margin-left: 4rem;
+  font-size: 1.3rem;
+}
+
+.check {
+  width: 40%;
+  height: 4rem;
+  margin: auto;
+  font-size: 1.5rem;
+  background-color: rgb(245, 64, 51);
+  border: none;
+  font-family: "Anton", sans-serif;
+  /* transition: background-color 1s; */
+}
+
+.check:hover {
+  background-color: rgb(224, 39, 6);
+}
+
+.number {
+  width: 40%;
+  height: 4rem;
+  margin: auto;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+:placeholder-shown {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.again {
+  position: relative;
+  top: 8rem;
+  border: none;
+  margin: 4rem auto;
+  width: 25%;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: rgb(243, 173, 147);
+}
+
+.again:hover {
+  background-color: rgb(252, 165, 134);
+}
+
+.winner {
+  background-color: rgb(15, 70, 33);
+}
